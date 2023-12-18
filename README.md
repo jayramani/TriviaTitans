@@ -4,7 +4,7 @@
 
 ### **Description:**
 
-Trivia Titans is a multi-cloud serverless online trivia game that allows users to form teams, compete against other teams in real-time, and track their progress on global and category-specific leaderboard.
+Trivia Titans is a multi-cloud serverless online trivia game that allows users to form teams, compete against other teams in real time, and track their progress on global and category-specific leaderboards.
 
 The primary goal of this project is to comprehend and implement a microservices architecture. Each microservice is created using either AWS or GCP services. The front end is exclusively deployed on GCP Cloud Run, while the backend services operate as Google Cloud Functions or AWS Lambda functions.
 
@@ -12,35 +12,11 @@ The primary goal of this project is to comprehend and implement a microservices 
 
 Before using this project, you'll need to have the following installed:
 
+- AWS and GCP accounts with permission to use necessary services
 - Node version 18.0 or higher 
-- Mongo version 6.0 or higher
 - A text editor (Visual Studio Code, Atom, Sublime Text, etc.)
 - Git
 - npm version 8.0 or higher
-
-
-### **Installation:**
-
-To install this project, follow these steps:
-
-1. Clone the repository: git clone https://github.com/jayramani/StaySpot.git
-2. Navigate to the backend directory: cd StaySpot/backend
-3. Install the backend dependencies: npm install
-4. Start the server: npm start
-5. Navigate to the frontend directory: cd StaySpot/frontend
-6. Install the frontend dependencies: npm install
-7. Navigate back to the project directory: npm start
-
-### **Environment Variables:**
-
-This project requires the following environment variables to be set:
-
-- MONGO_URI=<MONGO_CONNECTION_STRING>
-- SECRET=<JWT_SECRET>
-- REGION=<AWS_REGION>
-- ACCESS_KEY_ID=<AWS_ACCESS_KEY>
-- SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
-- SESSION_TOKEN=<AWS_SESSION_TOKEN><!-- Optional -->
 
 
 ### **Application Architecture**
